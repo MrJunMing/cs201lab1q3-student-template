@@ -146,6 +146,7 @@ public class DoublyLinkedList<E> {
 
                 curr.setPrev(predecessor);
                 curr.setNext(notNull);
+                
 
                 predecessor.setNext(curr);
                 notNull.setPrev(curr);
@@ -153,5 +154,6 @@ public class DoublyLinkedList<E> {
 
             curr = next;
         }
-}
+
+    }
 }
